@@ -4,7 +4,13 @@
 
 
 <nav>
-    <img src="/stat" alt="">
-    <img src="/" alt="">
-    div
+    <img src="/static/logo.png" alt="">
+    <img src="/static/logoText.pn" alt="">
+    <div>
+        <ul>
+            <li>
+                
+            </li>
+        </ul>
+    </div>
 </nav>
