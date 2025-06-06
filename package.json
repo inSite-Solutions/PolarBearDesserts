@@ -35,5 +35,12 @@
 		"typescript-eslint": "^8.20.0",
 		"vite": "^6.2.6"
 	},
-	"overrides": { "cookie": "^0.7.0" }
+	"overrides": {
+		"cookie": "^0.7.0"
+	},
+	"dependencies": {
+		"embla-carousel-autoplay": "^8.6.0",
+		"embla-carousel-svelte": "^8.6.0",
+		"svelte-carousel": "^1.0.25"
+	}
 }

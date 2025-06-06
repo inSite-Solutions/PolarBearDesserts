@@ -1,2 +1,18 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/typography';
+
+@font-face {
+    font-family: Quicksand;
+    src: url('/fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+@theme {
+    --color-primary: #B7DEF5;   /*Light blue*/
+    --color-secondary: #FAFAFA; /*White*/
+    --color-black: #181818;
+    --color-cyan: #C7F2F9;
+    --color-violet: #B7BFF5;
+    
+    --font-sans: "Quicksand";
+    /* TODO: Update the font */
+}
