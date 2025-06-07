@@ -51,12 +51,11 @@
                 <iframe
                     title='google location'
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5218.793927087424!2d-123.1580072!3d49.155073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54860b316a5231e3%3A0xef31fdb7c92c9071!2zUG9sYXIgQmVhciBTd2VldCBIb3VzZSDljJfmnoHnhornlJzlk4HlsYs!5e0!3m2!1sen!2sca!4v1749168176789!5m2!1sen!2sca"
-                    class="w-full max-w-max h-full border-0"
+                    class="w-full max-w-max border-0"
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
             </div>
         </div>
-
     </section>
 </div>
