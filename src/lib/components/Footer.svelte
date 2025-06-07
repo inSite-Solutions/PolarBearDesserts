@@ -2,7 +2,7 @@
 
 </script>
 
-<footer class='w-full p-5 flex flex-col justify-center gap-3 items-center bg-secondary'>
+<footer class='w-full p-5 flex flex-col justify-center gap-3 items-center bg-secondary text-sm'>
     <div class="w-24">
         <img src="/images/logoText.png" alt="">
     </div>
@@ -15,5 +15,7 @@
     <h1 class='text-black'>Follow us</h1>
     <div class='flex flex-row gap-2'>
         <img src="/icons/instagram.png" alt="">
+        <span>polar.sweet</span>
     </div>
+    <p class='text-black'>info@polarsweets.com</p>
 </footer>
