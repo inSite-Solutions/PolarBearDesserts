@@ -20,7 +20,7 @@ ${scrollY.current > 50 ? 'opacity-80 shadow-lg' : 'opacity-100'}
   </div>
 
   {#if open}
-    <div class="flex flex-row navigation absolute h-full w-full top-0 left-0" transition:fly={{ x: 100, duration: 500 }}>
+    <div class="fixed inset-0 z-40 flex" transition:fly={{ x: 100, duration: 500 }}>
       <button
         class="w-[30%] h-[100vh]"
         onclick={() => (open = !open)}
