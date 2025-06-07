@@ -24,9 +24,9 @@
       <div
         class="flex flex-col items-center pt-5 gap-3 bg-gray-500/90 w-[70%] h-[100vh]"
       >
-        <a href="/" class="text-secondary">Home</a>
-        <a href="/menu" class="text-secondary">Menu</a>
-        <a href="/about" class="text-secondary">About</a>
+        <a href="/" class="text-secondary" onclick={() => (open = false)}>Home</a>
+        <a href="/menu" class="text-secondary" onclick={() => (open = false)}>Menu</a>
+        <a href="/about" class="text-secondary" onclick={() => (open = false)}>About</a>
       </div>
     </div>
   {/if}
