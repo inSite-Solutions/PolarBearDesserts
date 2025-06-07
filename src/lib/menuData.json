@@ -1,0 +1,189 @@
+[
+    {
+        "category": "Classic Drinks",
+        "items": [
+            {
+                "name": "HK Milk Tea",
+                "price": "4.59"
+            },
+            {
+                "name": "HK Lemon Tea",
+                "price": "4.29"
+            },
+            {
+                "name": "Lemon Water",
+                "price": "3.99"
+            },
+            {
+                "name": "Honey Lemon Water",
+                "price": "4.29"
+            },
+            {
+                "name": "Lemon Soda with Sour Plum",
+                "price": "5.99"
+            }
+        ]
+    },
+    {
+        "category": "Speciality Drinks",
+        "items": [
+            {
+                "name": "Oolong Lime Iced Tea",
+                "price": "7.99"
+            },
+            {
+                "name": "Lime Black Tea",
+                "price": "7.99"
+            },
+            {
+                "name": "Lime Jasmine Green Tea",
+                "price": "7.99"
+            },
+            {
+                "name": "Lime Jasmine Green Tea with Sour Plum",
+                "price": "7.99"
+            },
+            {
+                "name": "Coconut Water Lime Jasmine Green Tea",
+                "price": "7.99"
+            }
+        ]
+    },
+    {
+        "category": "Smoothies",
+        "items": [
+            {
+                "name": "Mango Smoothie",
+                "price": "6.99"
+            },
+            {
+                "name": "Strawberry Smoothie",
+                "price": "6.99"
+            },
+            {
+                "name": "Green Bean Milk Smoothie",
+                "price": "6.99"
+            },
+            {
+                "name": "Iced Red Bean with Milk",
+                "price": "7.99"
+            },
+            {
+                "name": "Coconut Milk Mango Sago Smoothie",
+                "price": "8.99"
+            }
+        ]
+    },
+    {
+        "category": "Sweet Soup",
+        "items": [
+            {
+                "name": "Black Sesame Paste",
+                "price": "6.99"
+            },
+            {
+                "name": "Red Bean Sweet Soup",
+                "price": "5.99"
+            },
+            {
+                "name": "Green Bean Sweet Soup",
+                "price": "5.99"
+            },
+            {
+                "name": "Purple Rice Sago with Coconut Milk",
+                "price": "6.99"
+            },
+            {
+                "name": "Sweet Almond Soup with Egg White",
+                "price": "7.99"
+            },
+            {
+                "name": "Pistachio Mochi Paste",
+                "price": "9.99"
+            }
+        ]
+    },
+    {
+        "category": "Pudding",
+        "items": [
+            {
+                "name": "Mango Pudding",
+                "price": "4.99"
+            },
+            {
+                "name": "Matcha Red Bean Pudding",
+                "price": "4.99"
+            },
+            {
+                "name": "Coconut Pudding with Osmanthus Honey",
+                "price": "5.99"
+            }
+        ]
+    },
+    {
+        "category": "Mochi",
+        "items": [
+            {
+                "name": "Durian Mochi",
+                "price": "7.59"
+            },
+            {
+                "name": "Mango Mochi",
+                "price": "7.59"
+            },
+            {
+                "name": "Oreo Mochi",
+                "price": "6.29"
+            },
+            {
+                "name": "Red Bean Mochi",
+                "price": "6.29"
+            }
+        ]
+    },
+    {
+        "category": "Bubble Waffle",
+        "items": [
+            {
+                "name": "Original",
+                "price": "4.49"
+            },
+            {
+                "name": "Black Sesame",
+                "price": "5.59"
+            },
+            {
+                "name": "Oreo",
+                "price": "5.99"
+            },
+            {
+                "name": "Cheese",
+                "price": "5.99"
+            },
+            {
+                "name": "Matcha Red Bean",
+                "price": "6.99"
+            },
+            {
+                "name": "Pork Floss with Seaweed",
+                "price": "6.99"
+            },
+            {
+                "name": "Chocolate",
+                "price": "6.99"
+            },
+            {
+                "name": "Portugese Egg Tart",
+                "price": "7.99"
+            },
+            {
+                "name": "Durian Cheese",
+                "price": "10.99"
+            },
+            {
+                "name": "Bubble Waffle with Ice Cream",
+                "price": "12.99"
+            }
+        ]
+    }
+]

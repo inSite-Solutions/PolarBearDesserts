@@ -13,11 +13,6 @@
     <hr class='text-secondary mx-10'>
     <section class='flex flex-col gap-5'>
         <h1 class='mx-auto w-fit text-2xl'>Featured Items</h1>
-        <!-- <div class="overflow-x-auto flex snap-x snap-mandatory space-x-4">
-            <img src="image1.jpg" class="snap-center w-64 h-40 object-cover rounded shrink-0" />
-            <img src="image2.jpg" class="snap-center w-64 h-40 object-cover rounded shrink-0" />
-            <img src="image3.jpg" class="snap-center w-64 h-40 object-cover rounded shrink-0" />
-        </div> -->
         <div class='overflow-hidden h-52 rounded-lg' use:emblaCarouselSvelte="{{ options, plugins }}">
             <div class="flex">
                 {#each files.images as image}
