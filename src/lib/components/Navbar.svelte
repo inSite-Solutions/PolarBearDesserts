@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
+	import { fade, fly } from 'svelte/transition';
 	import { scrollY } from 'svelte/reactivity/window';
 
 	let open = $state(false);
@@ -23,16 +23,31 @@
 	</div>
 
 	{#if open}
-		<div class="fixed inset-0 z-40 flex" transition:fly={{ x: 100, duration: 500 }}>
+		<div class="fixed inset-0 z-40 flex">
 			<button
-				class="h-full w-[30%]"
+				class="absolute h-full w-[100%] bg-gray-500/40"
 				onclick={() => (open = false)}
 				aria-label="close navigation menu"
+				transition:fade={{ duration: 500 }}
 			></button>
-			<div class="flex h-full w-[70%] flex-col items-center gap-3 bg-gray-500/90 pt-5">
-				<a href="/" class="text-secondary text-2xl" onclick={() => (open = false)}>Home</a>
-				<a href="/menu" class="text-secondary text-2xl" onclick={() => (open = false)}>Menu</a>
-				<a href="/about" class="text-secondary text-2xl" onclick={() => (open = false)}>About</a>
+			<div
+				class="bg-secondary absolute right-0 flex h-full w-[70%] flex-col pt-5"
+				transition:fly={{ x: 100, duration: 500 }}
+			>
+				<button
+					class="absolute right-[5%] z-50"
+					onclick={() => (open = false)}
+					aria-label="open navigation menu"
+				>
+					<img src="/icons/Close.png" alt="" class="h-auto w-[8vw]" />
+				</button>
+				<div class="absolute flex h-full w-full flex-col items-center gap-3 pt-10">
+					<a href="/" class="text-2xl" onclick={() => (open = false)}>Home</a>
+					<hr class="w-[90%] opacity-30" />
+					<a href="/menu" class="text-2xl" onclick={() => (open = false)}>Menu</a>
+					<hr class="w-[90%] opacity-30" />
+					<a href="/about" class="text-2xl" onclick={() => (open = false)}>About</a>
+				</div>
 			</div>
 		</div>
 	{/if}
