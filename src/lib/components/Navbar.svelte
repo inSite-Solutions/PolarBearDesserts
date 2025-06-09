@@ -9,7 +9,7 @@
 <nav class="sticky top-0 left-0 z-50 w-full">
 	<div
 		class={`bg-secondary w-full transition-all duration-300 
-    ${scrollY.current > 50 ? 'opacity-80 shadow-lg' : 'opacity-100'}`}
+    ${(scrollY.current && scrollY.current > 50) ? 'opacity-80 shadow-lg' : 'opacity-100'}`}
 	>
 		<div class="flex w-full items-center justify-between px-3">
 			<img class="h-auto w-[20vw]" src="/images/logo.png" alt="Logo" />
